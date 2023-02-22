@@ -1,4 +1,5 @@
 import  queues
+import stack
 
 
 def __main__():
@@ -15,7 +16,7 @@ def __main__():
             queues.Queue()
 
         if (option == "2"):
-            print("something")
+            stack.Stack()
         if (option == "3"):
             isActive = False
 

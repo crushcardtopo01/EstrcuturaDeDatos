@@ -4,7 +4,7 @@ def RemoveElement(queue):
     _queue = queue
     if(len(_queue) != 0):
         #if you dont define a index, pop method remove the last item inside of the list
-        _queue.pop()
+        _queue.pop(0)
     else:
         print("\n \nThe queue dont have elements!!")
     return _queue
